@@ -33,6 +33,6 @@ jobs:
           file: ./src/Dockerfile
           context: ./src
           push: true
-          tags:
+          tags: |
             laurojrllj/kube-news:latest
             laurojrllj/kube-news:${{github.run_number}}
